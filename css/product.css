@@ -1,0 +1,165 @@
+
+#product{
+	margin-top:7%; 
+	font-weight: bold;
+}
+#small_photo img{
+	border: 1px solid black; 
+  border-radius: 4px;  
+  padding: 5px;
+  width: 80px; 
+}
+#small_photo img:hover {
+  box-shadow: 0 0 2px 1px 
+}
+#inf{
+	font-size: 20px;
+}
+#inf select{
+	border-radius: 8px;
+}
+.butn{
+  border: 2px solid #E0C33F!important;
+  background: none;
+  padding: 10px 20px;
+  font-size: 15px!important;
+  font-family: 'Righteous', cursive;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.btn1{
+  color:#99A984;
+}
+.btn1:hover{
+  color: #fff;
+}
+
+.butn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #E0C33F;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before{
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before{
+  height: 180%;
+}
+.number{
+	font-size:15px;
+	width:9%;
+}
+.word{
+	border-radius:8px; 
+	width: 100%;
+	height: 80px;
+}
+*{box-sizing: border-box;}
+.qty{
+  width:100px;
+  padding:0 20px;
+  vertical-align: top;
+  text-align: center;
+  outline: none;
+  
+}
+.qty,.qtyplus,.qtyminus{
+  border:2px solid #cccccc;
+  height: 50px;
+  user-select:none;
+  border-radius: 40px;
+}
+.qtyplus,.qtyminus{
+  display: inline-block;
+  width: 50px;
+  line-height: 38px;
+  background: #f1f1f1;
+  color:#444444;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.qtyplus:active
+.qtyminus:active{
+  background: #dddddd;
+}
+.qtyminus{
+  border-right:none;
+}
+.qtyplus{
+  border-left: none;
+}
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  color:white;
+  font-size: 20px; 
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  
+}
+#shopcart img{
+  width: 150px;
+  height: 150px;
+
+}
+.checkout #checkout{
+  border:2px solid white;
+  color:white;
+  background:none; 
+  border-radius:10px; 
+  font-size: 18px;
+}
+#checkout:hover{
+  background-color: white; 
+  transition: .7s;
+  color:black;
+}

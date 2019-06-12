@@ -1,0 +1,15 @@
+#footer{
+  width: 100%;
+  background-color:Black;
+  height: 100px;
+  margin: 10px;
+  color:white;
+  text-align:center;
+  line-height:40px;
+  font-family:微軟正黑體; 
+  margin-bottom:0px;
+  margin-left:0px;
+  position: absolute;
+  font-size:20px;
+   letter-spacing: ４px;
+}

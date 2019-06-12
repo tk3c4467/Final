@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>圓價屋</title>
+		<link rel="stylesheet" type="text/css" href="css/order.css">
+		<link rel="stylesheet" type="text/css" href="css/cart.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/slide.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		<script src="js/slide.js"></script>
+		<style>
+		</style>
+	</head>
+	<body class="body">
+		<!--<header id="header" class="">
+		</header> </header -->
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<form>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4" id="shopcart">
+							<img src="image/acer.png">
+							<!--商品圖片-->
+							<!--加入購物車第一步-->
+							<p>XXX商品名稱</p>
+						</div>
+						<div class="col-md-4">
+							<p class="h">XXX商品數量</p>
+						</div>
+						<div class="col-md-4">
+							<p class="h">XXX商品總價</p>
+						</div>
+						<div class="col-md-4" id="shopcart">
+							<img src="image/acer.png">
+							<!--商品圖片-->
+							<!--加入購物車第一步-->
+							<p>XXX商品名稱</p>
+						</div>
+						<div class="col-md-4">
+							<p class="h">XXX商品數量</p>
+						</div>
+						<div class="col-md-4">
+							<p class="h">XXX商品總價</p>
+						</div>
+						<div class="checkout">
+							<input type="submit" name="" value="前往結帳" id="checkout">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--加入購物車後商品出現地方 第二步前往結帳葉面-->
+		<div class="icon">
+			
+			
+			<!--<div class="search-box">
+								<input type="search" name="" class="buscar-txt" placeholder="search"/><a  class="search-btn"><i class="fas fa-search" id="search"></i></a>
+			</div> 這是搜尋-->
+			
+			<span style="cursor:pointer" onclick="openNav()"><i class="fas fa-shopping-cart"></i></span><!---->
+			<a href="user.html"><i class="fas fa-users"></i>				
+			</div>			
+			<nav id="header" class="" style="font-family: 'Fredericka the Great', cursive;">
+				<div class="logo">
+					<a href="index.html"><img src="image/logo.png"></a><!--放LOGO可自調我放在HEADER.css-->
+				</div>
+				<div class="container-fluid">
+					<ul class="nav justify-content-center" id="dropdown">
+						<li class=""><a href="index.html">Home</a></li>
+						<li class=""><a href="#">Commodity</a>
+						<ul class="">
+							<li><a href="acer.html">Acer</a></li>
+							<li><a href="lenovo.html">Lenovo</a></li>
+							<li><a href="asus.html">Asus</a></li>
+							<li><a href="mac.html">Mac</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="Aboutus.html">About us</a></li>
+					<li class=""><a href="login.html">Login</a></li>
+					<li class=""><a href="">Logout</a></li>
+				</ul>
+			</div>
+			<div class="username"> HELLO XXX!</div>
+		</nav>
+		<div>
+			<center>
+			<img src="image/acer.png" alt=""><!--可放大型背景圖˙-->
+			</center>
+		</div>
+		<form>
+			<div class="container-fluid">
+				<div class="row">
+					<!--左邊區塊-->
+					<div class="col-md-6" id="order">
+						<h1>配送資訊</h1>
+						<hr>
+						
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="inputEmail4">姓名</label>
+								<input type="email" class="form-control" id="dash" placeholder="收件人姓名">
+							</div>
+							<div class="form-group col-md-6">
+								<label for="inputPassword4">Email</label>
+								<input type="password" class="form-control" id="dash" placeholder="收件人Email">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-md-4">
+								<label for="inputCity">電話</label>
+								<input type="text" class="form-control" id="dash" placeholder="收件人電話">
+							</div>
+							<div class="form-group col-md-8">
+								<label for="inputAddress">地址</label>
+								<input type="text" class="form-control" id="dash" placeholder="收件人地址">
+							</div>
+							<div class="form-group col-md-4">
+								<label for="inputState">付款方式</label>
+								<select id="inputState" class="form-control">
+									<option selected>一律宅配-貨到付款</option>
+								</select>
+							</div>
+						</div>
+						
+					</div>
+					<!--右邊區塊-->
+					<div class="col-md-6" id="order">
+						<h1>您的訂單</h1>						
+						
+						<hr>
+						<p>商品名稱:</p>
+						<p class="pro_total">商品小計:</p>
+						<hr>
+						<p class="total">總計:</p>
+						<!--輸入金額-->
+						
+					<hr>
+				<center>
+				<div class="row">
+				<div class="col-md-6">
+				<button type="submit" class="btn btn-primary" ><span class="glyphicon glyphicon-share-alt"></span>返回上頁</button>
+				</div>
+				<div class="col-md-6">
+				<button type="submit" class="btn btn-primary">送出訂單</button>
+				</div>
+				</div>
+				</center>
+				</div>
+			</div>	
+</form>
+<div id="footer">聯絡我們&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:zxc8899555@gmail.com" title="寄信給我們！"><img src="image/gmail.png"/></a>&nbsp;&nbsp;&nbsp;<a href="tel:+886-926529179" title="立即撥打電話！"><img src="image/phone.png"></a> <br>Copyright © 2019 Cirprice. All rights reserved</div>
+
+
+
+
+<!--BACKtoTOP-START-->
+<a style="display:scroll;position:fixed;bottom:10%;right:1%;" href="#" title="" onFocus="if(this.blur)this.blur()">
+<img alt='' border='0' onmouseover="this.src='image/home.png'" src="http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png" onmouseout="this.src='http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png'" /></a>
+<!--BACKtoTOP-STOP-->
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

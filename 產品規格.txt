@@ -1,0 +1,123 @@
+Swift 7 (SF714-52T)
+Windows 10 家用版
+第 8 代 IntelR Core? i7 處理器
+14 吋
+16 GB 記憶體
+硬碟：512 GB SSD
+0.89 公斤
+
+
+Swift 5 (SF514-52T-870J)
+Windows 10 家用版
+IntelR Core? i7-8550U 處理器 4核心 1.80 GHz
+IntelR UHD Graphics 620 共享 memory
+35.6 cm (14") Full HD (1920 x 1080) 16:9 IPS-Pro
+8 GB, LPDDR3
+512 GB SSD
+0.97 公斤
+
+Swift 3(SF314-54G-86ZW
+Windows 10 家用版
+IntelR Core? i7-8550U 處理器 4核心 1.80 GHz
+NVIDIAR GeForceR MX150 連 2 GB 專用 memory
+35.6 cm (14") Full HD (1920 x 1080) 16:9 IPS
+8 GB, DDR4 SDRAM
+1 TB HDD, 256 GB SSD
+
+Swift 1(SF114-32-C5VB
+Windows 10 家用版
+IntelR CeleronR N4100 處理器 4核心 1.10 GHz
+IntelR UHD Graphics 600 共享 memory
+35.6 cm (14") Full HD (1920 x 1080) 16:9 IPS
+4 GB, DDR4 SDRAM
+128 GB SSD
+
+Spin7
+作業系統與版本 Windows 10
+處理器品牌 Intel
+處理器型號 Core i7
+主螢幕尺寸 14 inch
+RAM記憶體 8 GB
+ROM儲存空間 256 GB
+前相機畫素 200 萬畫素
+IEEE 802.11傳輸速度 ac
+
+Spin5(SP513-53N
+作業系統與版本 Windows 10 Pro
+處理器品牌 Intel
+處理器型號 Core i7-8565U
+主螢幕尺寸 13.3 inch
+RAM記憶體 16 GB
+記憶卡 microSD
+IEEE 802.11傳輸速度 a, ac, b, g, n, n(2.4GHz), n(5GHz)
+
+
+Spin1(SP111-33-P8PJ
+Windows 10 家用版
+IntelR PentiumR Silver N5000 處理器 4核心 1.10 GHz
+IntelR UHD Graphics 605 共享 memory
+29.5 cm (11.6") HD (1366 x 768) 16:9
+4 GB, LPDDR4
+500 GB HDD
+
+
+
+Lenovo Yoga S730
+第 8 代 IntelR Core? i5 處理器
+13.3 吋
+16 GB 記憶體
+硬碟：512 GB SSD
+1.1 公斤
+
+Lenovo Yoga 530
+第 8 代 IntelR Core? i5 處理器
+14 吋
+16 GB 記憶體
+硬碟：512 GB SSD
+1.6 公斤
+
+Lenovo IdeaPad 330S-15IKB 81F500D1TW
+搭載最新8代Core 處理器
+螢幕：15.6吋
+處理器：Intel i5-8250U
+記憶體：4GB DDR4
+硬碟：1TB
+顯示介面：AMD RADEON 535 2GB GDDR5
+光碟機：無
+作業系統：Windows 10
+
+
+Lenovo IdeaPad 330-15IKB 81DE00TKTW
+搭載最新8代Core 處理器
+螢幕：15.6吋
+處理器：Intel i5-8250U
+記憶體：4GB DDR4
+硬碟：1TB+128G SSD
+顯示介面：NVIDIA GeForce MX150 GDDR5 2G
+光碟機：無
+作業系統：Windows 10
+
+
+Macbook Pro Retina 13
+IntelR Core? i7-8550U 處理器 6核心 1.80 GHz
+NVIDIAR GeForceR MX150 連 2 GB 專用 memory
+8 GB, DDR4 SDRAM
+1 TB HDD, 256 GB SSD
+
+MacBook Air 13
+IntelR Core? i7-8550U 處理器 4核心 1.80 GHz
+NVIDIAR GeForceR MX150 連 2 GB 專用 memory
+8 GB, DDR4 SDRAM
+1 TB HDD, 256 GB SSD
+
+MacBook Air 11
+IntelR Core? i5-8250U 處理器 4核心 1.80 GHz
+NVIDIAR GeForceR MX150 連 2 GB 專用 memory
+8 GB, DDR4 SDRAM
+1 TB HDD, 256 GB SSD
+
+Mackbook 12
+IntelR Core? i5-8250U 處理器 4核心 1.80 GHz
+NVIDIAR GeForceR MX150 連 2 GB 專用 memory
+8 GB, DDR4 SDRAM
+1 TB HDD, 256 GB SSD

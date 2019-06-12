@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Ruda');
+.body{
+	font-family: 'Ruda', sans-serif;
+}
+#ad{
+	margin-top:7% ; 
+}
+#acer img{
+	width: 230px;
+	height: 230px;
+	transition: .7s;
+}
+#acer img:hover{
+		width:250px;
+		height: 250px;
+	}
+p{
+	font-size: 25px;
+}
+.username{
+	color:white;
+}

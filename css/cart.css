@@ -1,0 +1,89 @@
+.body{
+	background-color: #306D66;/*背景顏色*/
+}
+.register
+{
+	font-family: 'Indie Flower', cursive;
+	width:400px;
+	margin:7% 50% 0px 43%;	
+	text-align: center;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+.textbox {
+	padding: 10px;
+}
+.textbox input{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.sub{
+	width:;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:white;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+	border-radius: 10px;
+}
+.reg{
+	width:;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:white;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+	border-radius: 10px;
+}
+.panel-heading{
+		font-size:20px;
+		
+}
+.panel-heading i{
+	padding-right:20px; 
+}
+.panel-footer{
+	background-color:#6AAFE6!important;
+}
+.shop-image{
+	width: 80px;
+	height: 80px;
+	transition: .7s;
+}
+#title{
+	font-size:40px;
+	font-weight: bold;
+}
+#pro_{
+
+	padding-top: 20px;
+}
+.btn1{
+	background: none;
+	border:2px solid black; 
+	border-radius:25px; 
+	transition: .5s;
+	height: 30px;
+	width: 40px;
+}
+.btn1:hover{
+	color:white;
+	background-color:black;
+
+}
+.shop-image:hover{
+	width: 100px;
+	height:100px;
+
+}
+.username{
+	color:white;
+}

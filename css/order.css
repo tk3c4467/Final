@@ -1,0 +1,31 @@
+#order{
+	border:2px /*邊框配色 yellow*/;
+
+	
+	background-color:#529E86;/*請依背景圖調色不然很醜*/
+	
+}
+#order1{
+
+}
+#order hr{
+	background-color: #282828
+}
+#order h1{
+	font-weight: bold;
+
+}
+#order p{
+	font-weight: bold;
+	font-size: 15px;
+}
+#order img{
+	width: 100px;
+	height: 100px;
+}
+#order button{
+	width: 450px;
+}
+.username{
+	color:white;
+}

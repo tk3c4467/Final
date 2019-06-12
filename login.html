@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="css/slide.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+		 <link rel="stylesheet" type="text/css" href="css/footer.css">
+		 <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+		 <script src="js/slide.js">
+		 </script>
+		<style>
+		</style>
+
+	</head>
+	<body class="body">
+	<div id="mySidenav" class="sidenav"><!--側邊購物籃-->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="shopcart">
+                    <img src="image/acer.png">
+                    <!--商品圖片-->
+                    <!--加入購物車第一步-->
+                    <p>XXX商品名稱</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="h">XXX商品數量</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="h">XXX商品總價</p>
+                </div>
+                 <div class="col-md-4" id="shopcart">
+                    <img src="image/acer.png">
+                    <!--商品圖片-->
+                    <!--加入購物車第一步-->
+                    <p>XXX商品名稱</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="h">XXX商品數量</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="h">XXX商品總價</p>
+                </div>
+                <div class="checkout">
+                    <input type="submit" name="" value="前往結帳" id="checkout">
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+		<div class="icon">
+       <div class="search-box">
+                            <input type="search" name="" class="buscar-txt" placeholder="search"/><a  class="search-btn"><i class="fas fa-search" id="search"></i></a> 
+                        </div> 
+        <span style="cursor:pointer" onclick="openNav()"><i class="fas fa-shopping-cart"></i></span>
+        <a href="user.html"><i class="fas fa-users"></i></a>
+    </div>
+					<nav id="header" class="" style="font-family: 'Fredericka the Great', cursive;">
+						<div class="logo">
+							<a href="index.html"><img src="image/logo.png"></a><!--放LOGO可自調我放在HEADER.css-->
+						</div>
+						<div class="container-fluid">
+							<ul class="nav justify-content-center" id="dropdown">
+						<li class=""><a href="index.html">Home</a></li>
+						<li class=""><a href="#">Commodity</a>
+						<ul class="">
+							<li><a href="acer.html">Acer</a></li>
+							<li><a href="lenovo.html">Lenovo</a></li>
+							<li><a href="asus.html">Asus</a></li>
+							<li><a href="mac.html">Mac</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="Aboutus.html">About us</a></li>
+					<li class=""><a href="login.html">Login</a></li>
+					<li class=""><a href="">Logout</a></li>
+						</ul>
+					</div>
+				</nav><!--標頭可改成BOOSTRAP 比較好看-->
+	
+	
+	<div class="login">
+		<h1>Login</h1>
+		<center>
+		<form>
+		<div class="textbox">
+			<i class="fas fa-user"></i><!--圖示-->
+			<input type="text" placeholder="Username" name="" value="">
+		</div>
+		<div class="textbox">
+			<i class="fas fa-unlock-alt"></i><!--圖示-->
+			<input type="password" placeholder="Password" name="" value="">
+
+		</div>
+		<a href="https://www.youtube.com/"><input class="sub" type="submit" name="" value="signin"></a><!--登入紐-->
+		</form>
+		<a href="register.html"><input class="reg" type="button" name="" value="register"></a><!--註冊紐-->
+		</center>
+
+	</div>
+		<div id="footer">聯絡我們&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:zxc8899555@gmail.com" title="寄信給我們！"><img src="image/gmail.png"/></a>&nbsp;&nbsp;&nbsp;<a href="tel:+886-926529179" title="立即撥打電話！"><img src="image/phone.png"></a> <br>Copyright © 2019 Cirprice. All rights reserved</div>
+<!--BACKtoTOP-START-->
+    <a style="display:scroll;position:fixed;bottom:10%;right:1%;" href="#" title="" onFocus="if(this.blur)this.blur()">
+        <img alt='' border='0' onmouseover="this.src='image/home.png'" src="http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png" onmouseout="this.src='http://1.bp.blogspot.com/-_gUa3K1wDNo/TmzrHROhBVI/AAAAAAAADpU/vOKm_7zL8DQ/s1600/Top_medium.png'" /></a>
+    <!--BACKtoTOP-STOP-->
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.body{
+	background-color: white;/*背景顏色*/
+}
+.register
+{
+	font-family: 'Indie Flower', cursive;
+	width:400px;
+	margin:7% 50% 0px 43%;	
+	text-align: center;
+	background: rgba(0,0,0,.8);
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+.textbox {
+	padding: 10px;
+}
+.textbox input{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.sub{
+	width:;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:white;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+	border-radius: 10px;
+}
+.reg{
+	width:;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:white;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+	border-radius: 10px;
+}
+.username{
+	color:white;
+}

@@ -1,0 +1,14 @@
+.word {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.word .letter {
+  display: inline-block;
+  line-height: 1em;
+}

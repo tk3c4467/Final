@@ -1,0 +1,57 @@
+
+.body{
+	background-color: white;/*背景顏色*/
+}
+.login{
+	font-family:'Permanent Marker', cursive;
+	width:300px;
+	margin:150px 45% 0px 45%;	
+}
+.login h1{
+	color:#E0C33F;
+	font-size:40px;
+	border-bottom: 6px solid #00BD9D;
+	margin-bottom:20px;
+	padding: 13px 0
+
+}
+.textbox{
+	width:100%;
+	
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin:8px 0;
+	border-bottom: 2px solid #45CFB7;
+}
+.textbox input{
+	border:none;
+	outline:none;
+	background: none;
+	color:black;
+	font-size: 20px;
+	width: 80%;
+	float:left;
+	margin:5px 10px;
+}
+.sub{
+	width:100%;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:black;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+}
+.reg{
+	width:100%;
+	background:none;
+	border:2px solid #5D4D4F;
+	color:black;
+	padding:5px;
+	font-size: 20px;
+	cursor:pointer;
+	margin:12px 0;
+}
+

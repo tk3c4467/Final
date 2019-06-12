@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+#header{
+display: flex;
+
+padding-left: 20px;
+font-size: 30px;
+justify-content: space-between;
+padding: 10px 0px;
+width: 100%;
+top: 0px;
+transition: background 0.4s;
+background-color:black;
+min-width:1490px;
+text-align:center
+
+}
+.login{
+	 min-height:100%;
+   position:relative;
+   padding-bottom: 195px;	
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+ul#dropdown a {
+
+color: black;
+display: block;
+padding: 0 20px;
+text-decoration: none;
+border-radius: 10px;
+text-shadow:
+-2px -2px 0 #000,
+2px -2px 0 #000,
+-2px 2px 0 #000,
+2px 2px 0 #000,
+2px 2px 2px black;
+line-height:100px;
+
+color:yellow;/*改HEADER標題顏色*/
+}
+ul#dropdown a:hover { /* 滑鼠滑入按鈕變色*/
+
+color: #f0f5f9;
+}
+ul#dropdown li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
+background:none;
+color:white;
+}
+ul#dropdown ul { /*隱藏次選單*/
+left: 99999px;
+opacity: 0;
+transition: opacity 0.3s;
+
+
+}
+ul#dropdown li:hover > ul { /* 滑鼠滑入展開次選單*/
+opacity: 1;
+transition: opacity 2s;
+left: -1px;
+border-right: 5px;
+
+}
+ul#dropdown li:hover > ul ul { /* 滑鼠滑入之後、次選單之後的選單依舊隱藏*/
+left: 99999px;
+}
+ul
+{
+margin:0px;
+padding: 0px;
+list-style: none;
+
+}
+ul li{
+color:#f0f5f9;
+width: 200px;
+height: 40px;
+opacity: .8;
+line-height: 20px;
+text-align: center;
+z-index:5;
+	
+}
+ul li a {
+display: block;
+}
+ul li ul li{
+display: none;
+}
+ul li:hover ul li{
+  
+display: block;
+}
+#header a{
+transition-property: width, opacity;
+
+
+}
+#header a,a:link,a:visited{
+color:#d8e9ef;text-decoration: none;
+}
+#header a:hover{
+opacity: 1.0;
+color:black;
+text-decoration:none;
+}
+.icon{
+clear: left;
+float: right;
+font-size: 20px;
+color: black;
+display: block;
+padding: 0 20px;
+text-decoration: none;
+line-height: 40px;
+}
+
+.search-box{
+float: right;
+font-size: 20px;
+color: black;
+display: block;
+text-decoration: none;
+line-height: 40px;
+border-radius: 40px;
+background: white;
+}
+
+
+.search-box:hover>.buscar-txt {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.search-box:hover >.search-btn {
+ background:#997748 ;
+ color: #99A984;
+}
+
+.search-btn 
+{
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: black;
+ cursor: pointer;
+}
+.buscar-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: black;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}﻿
